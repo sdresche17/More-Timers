@@ -1,0 +1,53 @@
+name: moretimers
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.2.0+16
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^6.1.0
+  equatable: ^1.2.5
+  flutter_speed_dial: ^1.2.5
+  flutter_datetime_picker: ^1.4.0
+  flutter_colorpicker: ^0.3.4
+  flutter_local_notifications: ^3.0.2
+  device_info: ^1.0.0
+  android_alarm_manager: ^0.4.5+17
+  timezone: ^0.5.9
+  assets_audio_player: ^2.0.13+1
+  wakelock: ^0.2.1+1
+  url_launcher: ^5.7.10
+  flutter_launcher_icons: ^0.8.1
+  flutter_spinkit: ^4.1.2
+  hydrated_bloc: ^6.1.0
+  json_annotation: ^3.0.0
+  cupertino_icons: ^0.1.3
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/moretimers.png"
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  json_serializable: ^3.2.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/animals_bear_growl_002.mp3
+    - assets/audio_hero_Hyena_DIGIC12-31.mp3
+    - assets/zapsplat_multimedia_alert_bright_warm_system_positive_001_57863.mp3
+    - assets/zapsplat_multimedia_alert_dreamy_soft_warm_drippy_delayed_bells_positive_002_57873.mp3
+    - assets/zapsplat_animals_dog_puppy_several_weeks_old_barking_ridgeback_cross_bullmastiff_008_56152.mp3
+    - assets/household_alarm_clock_beep_tone.mp3
+    - assets/images/moretimers_icon.png
+    - assets/images/moretimers_white.png
+    - assets/zapsplat_cartoon_slide_whistle_up_down_slow_speed_001_49200.mp3
